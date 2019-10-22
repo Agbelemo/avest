@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.showcase{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 80px;
+}
+.showcase .showcaseInfo span{
+    color: rgb(255, 174, 0);
+}
+
+.showcase .showcaseText p{
+    margin: 25px;
+    margin-left: 1em;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 15% 40%;
+}
+
+.container .showcaseText{
+}
+
+.container .showcaseImg div{
+    width: 10vw;
+    height: 2vw;
+    background: url('./assets/verified.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px;
+    margin-top: 13px;
+    
+}
+
+.showcaseText input{
+    border: 0;
+    padding: 10px 40px 10px 40px;
+    background: rgb(255, 136, 0);
+}
